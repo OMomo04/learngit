@@ -1,9 +1,28 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <title>Mon Robot en JS</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="Robot.js"></script>
     </head>
     <body>
-        
+        <h1> Bienvenue sur notre palteforme : Voici vos robots</h1>
+
+        <!-- creation d'instances de robots :  -->
+        <script>
+            let robot1 = new Robot(0,0,'Nord');
+            let robot2 = new Robot(0,-1,'Nord');
+            
+            //changement de posisition
+            //changement de position pour nos robots vers la face est
+            robot1.face = 'est';
+            robot2.face = 'est';
+
+            //changement de position pour nos robots vers la face ouest
+            robot1.face = 'ouest';
+            robot2.face = 'ouest';  
+        </script>
+
     </body>
 </html>

@@ -1,0 +1,18 @@
+Série d'instruction
+1 - Du point de coordonnée (7,3) face nord, 
+Vérifie la nouvelle position du robot et dans 
+quelle direction il pointe. Instruction : DAAGAG.
+
+Réponse : Point de coordonnée {9, 4} face à l'ouest.
+
+2 - Du point de coordonnée (2,-7) face ouest, 
+Vérifie la nouvelle position du robot et dans 
+quelle direction il pointe. Instruction : DDAAAAAGA.
+
+Réponse : Point de coordonnée {7, -6} face Nord.
+
+3 - Du point de coordonnée (8,4) face sud, Vérifie 
+la nouvelle position du robot et dans quelle direction 
+il pointe. Instruction : GAAADDDAGGGG.
+
+Réponse : Point de coordonnée {11, 5} face Nord.
